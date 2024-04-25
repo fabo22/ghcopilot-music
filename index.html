@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #ff9900;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #00cc66;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .song-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .song {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+        .song img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .song h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Awesome Music Company</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Songs</a>
+    </nav>
+    <div class="song-container">
+        <div class="song">
+            <img src="song1.jpg" alt="Song 1">
+            <h3>Song Title 1</h3>
+        </div>
+        <div class="song">
+            <img src="song2.jpg" alt="Song 2">
+            <h3>Song Title 2</h3>
+        </div>
+        <!-- Add more songs here -->
+    </div>
+    <script>
+        // Your JavaScript code goes here
+    </script>
+</body>
+</html>
